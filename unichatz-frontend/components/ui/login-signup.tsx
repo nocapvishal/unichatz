@@ -116,10 +116,10 @@ export default function LoginCardSection() {
         UNICHATZ
       </header>
 
-      <Card className="relative w-full max-w-md border border-black/10 bg-white shadow-sm">
+      <Card className="relative w-full max-w-md border border-black/10 bg-white shadow-sm text-[#2C2C2A]">
 
         <CardHeader>
-          <CardTitle className="text-3xl font-semibold">
+          <CardTitle className="text-3xl font-semibold text-[#2C2C2A]">
             {step === "email" ? "Enter Campus" : "Welcome back"}
           </CardTitle>
           {step === "email" && (
